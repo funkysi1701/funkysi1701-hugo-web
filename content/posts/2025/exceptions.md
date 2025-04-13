@@ -1,27 +1,34 @@
-+++
-title = "Understanding and Handling Exceptions in .NET"
-date = "2025-02-17T20:00:00Z"
-year = "2025"
-month= "2025-02"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/exceptions.png"
-images =['/images/exceptions.png']
-tags = ["Exceptions", "DotNet", "Error Handling", "Programming", "Development", "Tech"]
-category="tech"
-description = "Learn about different types of exceptions in .NET and how to handle them effectively to build robust and reliable applications."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
+---
+title : "Understanding and Handling Exceptions in .NET"
+date : "2025-02-17T20:00:00Z"
+year : "2025"
+month: "2025-02"
+authors: 
+  - funkysi1701
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/exceptions.png"
+images: ['/images/exceptions.png']
+categories:
+  - tech
+tags: 
+  - Exceptions
+  - DotNet
+  - Error Handling
+  - Programming
+  - Development
+description : "Learn about different types of exceptions in .NET and how to handle them effectively to build robust and reliable applications."
+showFullContent : false
+readingTime : true
+copyright : false
+featured : false
+draft : false
+aliases : [
     "/exceptions",
     "/posts/exceptions",
     "/posts/2025/02/17/exceptions",
     "/2025/02/17/exceptions" 
 ]
-+++
+---
 While at [NDC London](/posts/2025/volunteering-at-ndc/) I heard a great talk by [Matt Burke](https://mattburke.dev/talks/youre-doing-exceptions-wrong/) about exceptions. I will share some of the points here.
 
 The talk was based in part on the blog post [Vexing Exceptions](https://ericlippert.com/2008/09/10/vexing-exceptions/) by Eric Lippert.
