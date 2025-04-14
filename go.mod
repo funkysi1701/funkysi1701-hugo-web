@@ -1,4 +1,4 @@
-module github.com/razonyang/hugo-theme-bootstrap-skeleton
+module github.com/funkysi1701/funkysi1701-hugo-web
 
 go 1.18
 
