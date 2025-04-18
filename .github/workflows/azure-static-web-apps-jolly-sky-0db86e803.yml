@@ -14,7 +14,6 @@ jobs:
         with:
           submodules: true
           lfs: false
-          ref: main
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
