@@ -2,10 +2,10 @@ name: my-blog
 
 services:
   server:
-    image: hugomods/hugo:exts
-    command: hugo server --bind 0.0.0.0
+    image: hugomods/hugo:exts-0.146.5
+    command: hugo server -D -p 1313 --bind 0.0.0.0 --disableFastRender --buildFuture
     volumes:
-      - $PWD:/src
-      - $HOME/.cache/docker_compose_hugo_cache:/tmp/hugo_cache
+      - ./:/src
+      - .cache/docker_compose_hugo_cache:/tmp/hugo_cache
     ports:
       - 1313:1313
