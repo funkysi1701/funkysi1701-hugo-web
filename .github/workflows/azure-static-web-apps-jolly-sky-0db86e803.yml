@@ -26,7 +26,7 @@ jobs:
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "public" # Built app content directory - optional
-          app_build_command: 'npm ci && hugo --minify --gc --enableGitInfo -b https://jolly-sky-0db86e803.6.azurestaticapps.net/'
+          app_build_command: 'npm ci && hugo --minify --gc --enableGitInfo -b https://preview.funkysi1701.com/'
           ###### End of Repository/Build Configurations ######
         env:
           NODE_VERSION: 20
