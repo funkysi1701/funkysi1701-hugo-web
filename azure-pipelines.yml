@@ -13,16 +13,59 @@ name: $(Build.Number.Major).$(Build.Number.Minor).$(Build.Number.Sub).$(Rev:r)
 
 trigger:
 - develop
+- test
+- main
 
 pool: Docker
 
 steps:
 - task: CmdLine@2
-  displayName: "publish to ACR"
-  condition: and(succeeded(), or(eq(variables['Build.SourceBranch'], 'refs/heads/main'), eq(variables['Build.SourceBranch'], 'refs/heads/develop')))
+  displayName: "Login"
+  condition: and(succeeded(), in(variables['Build.SourceBranch'], 'refs/heads/main', 'refs/heads/develop', 'refs/heads/test'))
   inputs:
     script: |
       docker build -t blog-v2 .
       docker login funkysi1701.azurecr.io --username funkysi1701 --password $(acrPassword)
-      docker tag blog-v2 funkysi1701.azurecr.io/funkysi1701/blog-v2:$(Build.BuildNumber)
-      docker push funkysi1701.azurecr.io/funkysi1701/blog-v2:$(Build.BuildNumber)
+- bash: |
+    case "$(Build.SourceBranchName)" in
+      "main")
+        echo "##vso[task.setvariable variable=imageRepoName]blog-v2:$(Build.BuildNumber)-main"
+        ;;
+      "test")
+        echo "##vso[task.setvariable variable=imageRepoName]blog-v2:$(Build.BuildNumber)-test"
+        ;;
+      "develop")
+        echo "##vso[task.setvariable variable=imageRepoName]blog-v2:$(Build.BuildNumber)-develop"
+        ;;
+    esac
+  displayName: 'Set image repository name'
+- task: CmdLine@2
+  displayName: "Publish to ACR"
+  condition: and(succeeded(), in(variables['Build.SourceBranch'], 'refs/heads/main', 'refs/heads/develop', 'refs/heads/test'))
+  inputs:
+    script: |
+      docker tag blog-v2 funkysi1701.azurecr.io/funkysi1701/$(imageRepoName)
+      docker push funkysi1701.azurecr.io/funkysi1701/$(imageRepoName)
+
+- task: Kubernetes@1
+  displayName: 'Kubernetes Login'
+  inputs:
+    connectionType: Kubernetes Service Connection
+    kubernetesServiceEndpoint: kubernetes
+    command: 'login'     
+- script: |
+    helm lint Helm/blog-v2 --namespace develop
+    helm lint Helm/blog-v2 --namespace test
+    helm lint Helm/blog-v2 --namespace main
+- script: |
+    helm upgrade --install blog-v2 ./Helm/blog-v2 --namespace develop --set image.tag=$(Build.BuildNumber)-develop
+  condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'develop'))  
+  displayName: 'helm upgrade blog-v2 Dev'
+- script: |
+    helm upgrade --install blog-v2 ./Helm/blog-v2 --namespace test --set image.tag=$(Build.BuildNumber)-test
+  condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'test'))  
+  displayName: 'helm upgrade blog-v2 Test'
+- script: |
+    helm upgrade --install blog-v2 ./Helm/blog-v2 --namespace main --set image.tag=$(Build.BuildNumber)-main
+  condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'main'))  
+  displayName: 'helm upgrade blog-v2 Main'
