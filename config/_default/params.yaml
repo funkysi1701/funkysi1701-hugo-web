@@ -16,7 +16,7 @@ keywords: Hugo, Bootstrap, Blog Theme
 # metaRobots:  # disable Meta Tag robots
 
 # logo: images/logo.png # Logo image. Default to images/logo.webp.
-logo: false # Disable Logo
+# logo: false # Disable Logo
 brand: Funky Si's Blog
 
 
