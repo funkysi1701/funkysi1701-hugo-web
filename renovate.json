@@ -24,5 +24,8 @@
   ],
   "extends": [
     "config:recommended"
-  ]
+  ],
+  "docker": {
+    "enabled": true
+  }
 }
