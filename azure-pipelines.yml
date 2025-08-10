@@ -21,7 +21,6 @@ pool: Docker
 steps:
 - task: CmdLine@2
   displayName: "Login"
-  condition: and(succeeded(), in(variables['Build.SourceBranch'], 'refs/heads/main', 'refs/heads/develop', 'refs/heads/test'))
   inputs:
     script: |
       docker build -t blog-v2 .
