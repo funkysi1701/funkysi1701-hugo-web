@@ -39,8 +39,6 @@ module:
 #   disqus:
 #     shortname: your-disqus-shortname
 
-ignoreLogs: ['warning-goldmark-raw-html']
-
 markup:
   highlight:
     guessSyntax: true
