@@ -130,7 +130,7 @@ if (useOtlpExporter)
 }
 ```
 
-If I update the AddOpenTelemetryExporters method in my Extensions.cs file in my .Net Aspire ServiceDefaults project, I can get my logs (or traces/metrics) to be sent to as many different places as I want. In my case I am sending to Allot and Aspire Dashboard.
+If I update the AddOpenTelemetryExporters method in my Extensions.cs file in my .Net Aspire ServiceDefaults project, I can get my logs (or traces/metrics) to be sent to as many different places as I want. In my case I am sending to Alloy and Aspire Dashboard.
 
 ## Conclusion
 
