@@ -2,9 +2,9 @@
 title = "Stepping Outside My Comfort Zone: An Adventure Holiday Experience"
 date = "2025-06-02T20:00:00Z"
 year = "2025"
-month= "2025-06"
+month = "2025-06"
 author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
+authorTwitter = "funkysi1701"
 cover = "/images/high-adventure.jpg"
 images =['/images/high-adventure.jpg']
 tags = ["Adventure", "Family", "Personal Growth", "Travel", "Holiday", "Outdoors", "Parenting", "Experiences"]
