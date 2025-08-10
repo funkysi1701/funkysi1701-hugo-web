@@ -49,6 +49,7 @@ The `docker-compose.yml` file defines the services for Loki and Alloy. Here's wh
 
 ```docker-compose.yml
 # Docker Compose configuration for Loki and Alloy
+  loki:
     command: -config.file=/etc/loki/local-config.yaml # Specifies the configuration file for Loki
 
   alloy:
