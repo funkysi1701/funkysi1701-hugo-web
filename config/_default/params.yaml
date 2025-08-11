@@ -16,7 +16,7 @@ keywords: Hugo, Bootstrap, Blog Theme
 # metaRobots:  # disable Meta Tag robots
 
 # logo: images/logo.png # Logo image. Default to images/logo.webp.
-# logo: false # Disable Logo
+logo: false # Disable Logo
 brand: Funky Si's Blog
 
 
@@ -273,9 +273,8 @@ social:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   email: funkysi1701@gmail.com
   facebook: funkysi1701
-  github: funkysi1701/funkysi1701
+  github: funkysi1701
   linkedin: funkysi1701
-  stackoverflow: 26111/simon-foster
   twitter: funkysi1701
   bluesky: funkysi1701
 
@@ -292,6 +291,6 @@ author:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
     email: funkysi1701@gmail.com
-    github: funkysi1701/funkysi1701
+    github: funkysi1701
     twitter: funkysi1701
     bluesky: funkysi1701
