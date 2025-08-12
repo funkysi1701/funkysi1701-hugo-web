@@ -42,7 +42,7 @@ After dinner, we explored the Games Room and took on the Labyrinth—a tight, da
 
 ## Sunday
 
-<img src="/images/abseiling.jpg" alt="Abseiling" width="250px" style="padding-right: 15px; " align="left"/>
+<img src="/images/abseiling.jpg" alt="Abseiling" width="250px" style="float: left; padding-right: 15px;" />
 
 Every day began with a cooked breakfast and a make-your-own sandwich station for lunch. Sunday morning kicked off with climbing and abseiling. I’d never climbed before, so I was surprised—and proud—to make it all the way to the top of the 8-meter wall. My boys didn’t quite reach the top, but they pushed themselves higher than I expected. Abseiling was fun too, and a great way to come down after the climb.
 
