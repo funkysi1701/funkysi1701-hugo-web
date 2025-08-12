@@ -2,7 +2,7 @@
 title = "Integrating OpenTelemetry Logs with Grafana Using Loki and Alloy"
 date = "2025-04-14T20:00:00Z"
 year = "2025"
-month= "2025-04"
+month = "2025-04"
 author = "funkysi1701"
 authorTwitter = "funkysi1701" #do not include @
 cover = "/images/grafana-loki-arch.png"
