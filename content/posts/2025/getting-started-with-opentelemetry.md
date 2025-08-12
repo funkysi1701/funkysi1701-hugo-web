@@ -2,7 +2,7 @@
 title = "Getting Started with OpenTelemetry: Observability Made Easy"
 date = "2025-05-05T20:00:00Z"
 year = "2025"
-month= "2025-05"
+month = "2025-05"
 author = "funkysi1701"
 authorTwitter = "funkysi1701" #do not include @
 cover = "/images/open-telemetry.png"
