@@ -58,7 +58,7 @@ The `docker-compose.yml` file defines the services for Loki and Alloy. Here's wh
     ports:
       - 12345:12345 # HTTP server for Alloy
       - 4317:4317   # gRPC endpoint for OpenTelemetry
-      - 4319:4318   # HTTP endpoint for OpenTelemetry
+      - 4318:4318   # HTTP endpoint for OpenTelemetry
     volumes:
       - ./config.alloy:/etc/alloy/config.alloy # Mount Alloy configuration
     command: run --server.http.listen-addr=0.0.0.0:12345 --storage.path=/var/lib/alloy/data /etc/alloy/config.alloy
