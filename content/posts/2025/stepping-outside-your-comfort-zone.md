@@ -60,7 +60,7 @@ The evening activity was Eggbert: designing a contraption to protect an egg drop
 
 ## Tuesday
 
-<img src="/images/caves.jpg" alt="Caving" width="250px" style="padding-left: 15px; " align="right" />
+<img src="/images/caves.jpg" alt="Caving" width="250px" style="float: right; padding-left: 15px;" />
 
 Tuesday was our first full day offsite. The instructors drove us in a minibus to the Yorkshire Three Peaks area, where we explored underground caves. Wearing cave suits, wellies, and helmets, we were ready for adventure. I foolishly thought I wouldn’t need a change of clothes—turns out, crawling through water-filled tunnels means your wellies fill up fast! I wasn’t the biggest fan of being soaked, but the boys loved climbing and sliding through the narrow passages. We finished the day with ice cream and hot chocolate in Settle—a well-deserved treat.
 
