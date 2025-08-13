@@ -4,11 +4,7 @@ test('navigate to www.funkysi1701.com, click top 5 blog posts, check console for
   // Collect console errors
   const errors: string[] = [];
   page.on('console', msg => {
-    if (msg.type() === 'error' || msg.type() === 'warning') {
-      errors.push(msg.text());
-    }
-    // Also check for uncaught exceptions
-    if (msg.text().includes('Uncaught')) {
+    if (msg.type() === 'error') {
       errors.push(msg.text());
     }
   });
@@ -26,16 +22,12 @@ test('navigate to www.funkysi1701.com, click top 5 blog posts, check console for
     'https://www.funkysi1701.com/posts/2025/getting-started-with-opentelemetry/'
   ];
 
-  for (let i = 0; i < blogPostUrls.length; i++) {
+  for (const url of blogPostUrls) {
     errors.length = 0;
-    await page.goto(blogPostUrls[i]);
-    // Check for uncaught errors
-    expect(errors.filter(e => e.includes('Uncaught'))).toHaveLength(0);
+    await page.goto(url);
+    // Check for any console errors
+    expect(errors).toEqual([]);
     // Optionally, check that the page loaded a blog post
-    await expect(page).toHaveURL(blogPostUrls[i]);
-    // Go back to homepage for next click
-    if (i < blogPostUrls.length - 1) {
-      await page.goto('https://www.funkysi1701.com');
-    }
+    await expect(page).toHaveURL(url);
   }
 });
