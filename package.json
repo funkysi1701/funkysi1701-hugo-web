@@ -62,7 +62,9 @@
     "workbox-routing": "^7.0.0",
     "workbox-strategies": "^7.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  },
   "name": "hugo-theme-bootstrap-skeleton",
   "version": "0.1.0"
 }
