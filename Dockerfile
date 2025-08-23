@@ -20,7 +20,7 @@ ARG NPM_CONFIG_REGISTRY=
 ENV NPM_CONFIG_REGISTRY=${NPM_CONFIG_REGISTRY}
 
 # Install dependencies
-RUN npm ci
+RUN npm i
 
 # Build site
 RUN hugo --minify --gc --enableGitInfo

@@ -1,27 +1,34 @@
-+++
-title = "Merging Two Projects Into One Git Repository"
-date = "2025-03-10T20:00:00Z"
-year = "2025"
-month= "2025-03"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/git-merge.png"
-images =['/images/git-merge.png']
-tags = ["Git", "Version Control", "Repository Management", "Development", "Tech", "Programming"]
-category="tech"
-description = "Learn how to merge two Git repositories into one while preserving commit history with a step-by-step guide."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/merge-two-projects-into-one",
-    "/posts/merge-two-projects-into-one",
-    "/posts/2025/03/10/merge-two-projects-into-one",
-    "/2025/03/10/merge-two-projects-into-one" 
-]
-+++
+---
+title: "Merging Two Projects Into One Git Repository"
+date: "2025-03-10T20:00:00Z"
+year: "2025"
+month: "2025-03"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/git-merge.png"
+images:
+    - "/images/git-merge.png"
+tags:
+    - "Git"
+    - "Version Control"
+    - "Repository Management"
+    - "Development"
+    - "Tech"
+    - "Programming"
+categories:
+    - tech
+description: "Learn how to merge two Git repositories into one while preserving commit history with a step-by-step guide."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+    - "/merge-two-projects-into-one"
+    - "/posts/merge-two-projects-into-one"
+    - "/posts/2025/03/10/merge-two-projects-into-one"
+    - "/2025/03/10/merge-two-projects-into-one"
+---
 Recently, I worked on merging two separate projects into one. Each project had its own Git repository, and I wanted to combine them into a single repository while preserving the commit history.
 
 Initially, I copied the code from one project, pasted it into the other, and committed the changes. If anyone needed information on the original commits, they could look at the original repo. However, it was suggested to me that it was possible to copy over the history of the commits from the original repository.
