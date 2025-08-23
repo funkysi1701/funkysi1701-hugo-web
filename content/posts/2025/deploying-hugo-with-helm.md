@@ -23,12 +23,11 @@ readingTime: true
 copyright: false
 featured: false
 draft: false
-aliases: [
-    "/deploying-hugo-with-helm",
-    "/posts/deploying-hugo-with-helm",
-    "/posts/2025/05/26/deploying-hugo-with-helm",
-    "/2025/05/26/deploying-hugo-with-helm"
-]
+aliases:
+  - "/deploying-hugo-with-helm"
+  - "/posts/deploying-hugo-with-helm"
+  - "/posts/2025/05/26/deploying-hugo-with-helm"
+  - "/2025/05/26/deploying-hugo-with-helm"
 ---
 
 Helm allows you to package your Kubernetes resources, manage configuration, and deploy updates with a single command.
