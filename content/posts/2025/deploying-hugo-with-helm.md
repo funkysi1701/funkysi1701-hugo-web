@@ -9,12 +9,12 @@ cover: "/images/helm-hugo.png"
 images: 
   - "/images/helm-hugo.png"
 tags:
-  - Kubernetes
-  - Helm
-  - DevOps
-  - Hugo
-  - Blog
-  - Deployment
+  - "Kubernetes"
+  - "Helm"
+  - "DevOps"
+  - "Hugo"
+  - "Blog"
+  - "Deployment"
 categories:
   - tech
 description: "Learn how to deploy a Hugo blog to Kubernetes using Helm charts for easy, repeatable, and configurable deployments."
