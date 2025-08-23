@@ -16,7 +16,8 @@ tags:
   - "Indexing"
   - "Development"
   - "Tech"
-category: "tech"
+categories:
+    - tech
 description: "Learn how to integrate Elasticsearch with .NET Aspire to enhance your application's search capabilities using powerful indexing and search features."
 showFullContent: false
 readingTime: true

@@ -14,7 +14,8 @@ tags:
   - "DotNet"
   - "Development"
   - "DevOps"
-category: "tech"
+categories:
+    - tech
 description: "Learn how to simplify dependency management in .NET projects using NuGet Central Package Management for consistent and efficient package version control."
 showFullContent: false
 readingTime: true

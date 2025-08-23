@@ -15,7 +15,8 @@ tags:
     - "Development"
     - "Tech"
     - "Programming"
-category: "tech"
+categories:
+    - tech
 description: "Learn how to merge two Git repositories into one while preserving commit history with a step-by-step guide."
 showFullContent: false
 readingTime: true

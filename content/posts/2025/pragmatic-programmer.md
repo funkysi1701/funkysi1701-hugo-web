@@ -15,7 +15,8 @@ tags:
     - "Software Development"
     - "Best Practices"
     - "Tech"
-category: "tech"
+categories:
+    - tech
 description: "'The Pragmatic Programmer' with key takeaways and tips for improving your programming skills and practices."
 showFullContent: false
 readingTime: true

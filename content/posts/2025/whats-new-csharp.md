@@ -15,7 +15,8 @@ tags:
   - "Language Features"
   - "Development"
   - "Tech"
-category: "tech"
+categories:
+    - tech
 description: "Discover the latest features coming to C#, including dictionary expressions and more, as shared by Mads Torgersen at NDC London."
 showFullContent: false
 readingTime: true

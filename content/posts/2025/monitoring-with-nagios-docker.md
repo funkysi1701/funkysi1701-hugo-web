@@ -15,7 +15,8 @@ tags:
   - "SysAdmin"
   - "DevOps"
   - "Network Monitoring"
-category: "tech"
+categories:
+    - tech
 description: "Learn how to set up Nagios monitoring using Docker to monitor your local network. Follow this guide to get started with network monitoring in a container."
 showFullContent: false
 readingTime: true

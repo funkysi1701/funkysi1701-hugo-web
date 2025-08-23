@@ -18,7 +18,8 @@ tags:
     - "Automation"
     - "Programming"
     - "Tech"
-category: "tech"
+categories:
+    - tech
 description: "Learn how to use AI with .NET to automate social media posts from your blog's RSS feed using Semantic Kernel and OpenAI."
 showFullContent: false
 readingTime: true

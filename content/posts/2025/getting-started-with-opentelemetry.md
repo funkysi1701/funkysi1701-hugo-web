@@ -15,7 +15,8 @@ tags:
     - "Metrics"
     - "Logging"
     - "DotNet"
-category: "tech"
+categories:
+    - tech
 description: "Learn how OpenTelemetry simplifies observability by collecting traces, metrics, and logs for modern distributed applications."
 showFullContent: false
 readingTime: true

@@ -17,7 +17,8 @@ tags:
     - "Outdoors"
     - "Parenting"
     - "Experiences"
-category: "Personal"
+categories:
+    - Personal
 description: "A personal story of adventure, family, and growth—stepping outside my comfort zone on an action-packed holiday full of new experiences."
 showFullContent: false
 readingTime: true

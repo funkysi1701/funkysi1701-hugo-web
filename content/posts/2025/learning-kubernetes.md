@@ -15,7 +15,8 @@ tags:
   - "Container Orchestration"
   - "DevOps"
   - "Microservices"
-category: "tech"
+categories:
+    - tech
 description: "A beginner's journey into Kubernetes: Learn how to deploy containers, use kubectl, and run a Grafana pod with simple YAML configurations."
 showFullContent: false
 readingTime: true

@@ -18,7 +18,8 @@ tags:
   - "Docker"
   - "DotNet"
   - "Tech"
-category: "tech"
+categories:
+    - tech
 description: "Learn how to integrate OpenTelemetry logs with Grafana using Loki and Alloy for efficient log aggregation and monitoring in your .NET applications."
 showFullContent: false
 readingTime: true

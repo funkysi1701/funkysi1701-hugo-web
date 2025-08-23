@@ -17,7 +17,8 @@ tags:
   - "DotNet"
   - "DevOps"
   - "Metrics"
-category: "tech"
+categories:
+    - tech
 description: "Set up Grafana with Docker and Prometheus to monitor .NET apps. Learn to visualize metrics and create real-time dashboards."
 showFullContent: false
 readingTime: true

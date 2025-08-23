@@ -18,7 +18,8 @@ tags:
   - "DevOps"
   - "Security"
   - "Automation"
-category: "tech"
+categories:
+    - tech
 description: "How to automate SSL certificates for Kubernetes services using Let's Encrypt, Cert Manager, Helm, and Cloudflare for secure, hassle-free deployments."
 showFullContent: false
 readingTime: true

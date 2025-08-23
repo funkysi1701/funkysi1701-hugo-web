@@ -16,7 +16,8 @@ tags:
   - "Technology"
   - "Creativity"
   - "Machine Learning"
-category: "tech"
+categories:
+    - tech
 description: "Exploring ChatGPT's image generation features with a fun action figure prompt and creative results. Check out the AI-generated version of me!"
 showFullContent: false
 readingTime: true

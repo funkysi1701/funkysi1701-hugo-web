@@ -16,7 +16,8 @@ tags:
     - "Tech Events"
     - "Networking"
     - "Software Development"
-category: "tech"
+categories:
+    - tech
 description: "Read about my experience volunteering at NDC London, meeting great people, and learning a lot at this premier software development conference."
 showFullContent: false
 readingTime: true
