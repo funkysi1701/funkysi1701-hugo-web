@@ -107,7 +107,7 @@ otelcol.exporter.otlphttp "loki" {
 
 By default, sending logs to Alloy and Loki means Aspire Dashboard will no longer receive them. To resolve this, you can configure the `AddOpenTelemetryExporters` method in your .NET application to send logs to multiple destinations.
 
-```Extensions.cs
+```csharp
 if (useOtlpExporter)
 {
     // The following lines enable the OTLP exporter (requires the OpenTelemetry.Exporter.OpenTelemetryProtocol package)
