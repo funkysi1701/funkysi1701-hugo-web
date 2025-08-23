@@ -1,27 +1,34 @@
-+++
-title = "Deploying My Blog to Kubernetes with Helm Charts"
-date = "2025-05-26T20:00:00Z"
-year = "2025"
-month = "2025-05"
-author = "funkysi1701"
-authorTwitter = "funkysi1701"
-cover = "/images/helm-hugo.png"
-images = ["/images/helm-hugo.png"]
-tags = ["Kubernetes", "Helm", "DevOps", "Hugo", "Blog", "Deployment"]
-category = "tech"
-description = "Learn how to deploy a Hugo blog to Kubernetes using Helm charts for easy, repeatable, and configurable deployments."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
+---
+title: "Deploying My Blog to Kubernetes with Helm Charts"
+date: "2025-05-26T20:00:00Z"
+year: "2025"
+month: "2025-05"
+author: "funkysi1701"
+authorTwitter: "funkysi1701"
+cover: "/images/helm-hugo.png"
+images: ["/images/helm-hugo.png"]
+tags:
+  - Kubernetes
+  - Helm
+  - DevOps
+  - Hugo
+  - Blog
+  - Deployment
+categories:
+  - tech
+description: "Learn how to deploy a Hugo blog to Kubernetes using Helm charts for easy, repeatable, and configurable deployments."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases: [
     "/deploying-hugo-with-helm",
     "/posts/deploying-hugo-with-helm",
     "/posts/2025/05/26/deploying-hugo-with-helm",
     "/2025/05/26/deploying-hugo-with-helm"
 ]
-+++
+---
 
 Helm allows you to package your Kubernetes resources, manage configuration, and deploy updates with a single command.
 

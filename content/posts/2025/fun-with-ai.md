@@ -1,27 +1,34 @@
-+++
-title = "Exploring ChatGPT's Image Generation: Fun with AI"
-date = "2025-04-07T20:00:00Z"
-year = "2025"
-month= "2025-04"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/ai-version-of-me.png"
-images =['/images/ai-version-of-me.png']
-tags = ["AI", "ChatGPT", "Image Generation", "Fun with AI", "Technology", "Creativity", "Machine Learning"]
-category="tech"
-description = "Exploring ChatGPT's image generation features with a fun action figure prompt and creative results. Check out the AI-generated version of me!"
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/fun-with-ai",
-    "/posts/fun-with-ai",
-    "/posts/2025/04/07/fun-with-ai",
-    "/2025/04/07/fun-with-ai" 
-]
-+++
+---
+title: "Exploring ChatGPT's Image Generation: Fun with AI"
+date: "2025-04-07T20:00:00Z"
+year: "2025"
+month: "2025-04"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/ai-version-of-me.png"
+images:
+  - "/images/ai-version-of-me.png"
+tags:
+  - "AI"
+  - "ChatGPT"
+  - "Image Generation"
+  - "Fun with AI"
+  - "Technology"
+  - "Creativity"
+  - "Machine Learning"
+category: "tech"
+description: "Exploring ChatGPT's image generation features with a fun action figure prompt and creative results. Check out the AI-generated version of me!"
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+  - "/fun-with-ai"
+  - "/posts/fun-with-ai"
+  - "/posts/2025/04/07/fun-with-ai"
+  - "/2025/04/07/fun-with-ai"
+---
 ## Fun with AI
 
 AI tools like [ChatGPT](https://chatgpt.com/) are evolving rapidly, and their creative capabilities are nothing short of amazing. Recently, I decided to test its image generation features with a fun and quirky prompt. The results? A personalized action figure concept that blew my mind! Let me walk you through the process and share the results.

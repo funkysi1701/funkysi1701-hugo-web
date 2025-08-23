@@ -1,27 +1,32 @@
-+++
-title = "Simplifying Dependency Management with NuGet Central Package Management"
-date = "2025-01-13T20:00:00Z"
-year = "2025"
-month= "2025-01"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/central-package-management-with-nuget.png"
-images =['/images/central-package-management-with-nuget.png']
-tags = ["NuGet", "Package Management", "DotNet", "Development", "DevOps"]
-category="tech"
-description = "Learn how to simplify dependency management in .NET projects using NuGet Central Package Management for consistent and efficient package version control."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/central-package-management-with-nuget",
-    "/posts/central-package-management-with-nuget",
-    "/posts/2025/01/13/central-package-management-with-nuget",
-    "/2025/01/13/central-package-management-with-nuget" 
-]
-+++
+---
+title: "Simplifying Dependency Management with NuGet Central Package Management"
+date: "2025-01-13T20:00:00Z"
+year: "2025"
+month: "2025-01"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/central-package-management-with-nuget.png"
+images:
+  - "/images/central-package-management-with-nuget.png"
+tags:
+  - "NuGet"
+  - "Package Management"
+  - "DotNet"
+  - "Development"
+  - "DevOps"
+category: "tech"
+description: "Learn how to simplify dependency management in .NET projects using NuGet Central Package Management for consistent and efficient package version control."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+  - "/central-package-management-with-nuget"
+  - "/posts/central-package-management-with-nuget"
+  - "/posts/2025/01/13/central-package-management-with-nuget"
+  - "/2025/01/13/central-package-management-with-nuget"
+---
 
 Managing dependencies in .NET projects can become complex, especially when dealing with multiple projects that share common packages. NuGet Central Package Management (CPM) is a feature that simplifies this process by allowing you to manage package versions centrally. 
 

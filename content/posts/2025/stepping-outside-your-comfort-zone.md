@@ -1,27 +1,35 @@
-+++
-title = "Stepping Outside My Comfort Zone: An Adventure Holiday Experience"
-date = "2025-06-02T20:00:00Z"
-year = "2025"
-month = "2025-06"
-author = "funkysi1701"
-authorTwitter = "funkysi1701"
-cover = "/images/high-adventure.jpg"
-images =['/images/high-adventure.jpg']
-tags = ["Adventure", "Family", "Personal Growth", "Travel", "Holiday", "Outdoors", "Parenting", "Experiences"]
-category = "Personal"
-description = "A personal story of adventure, family, and growth—stepping outside my comfort zone on an action-packed holiday full of new experiences."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/stepping-outside-my-comfort-zone",
-    "/posts/stepping-outside-my-comfort-zone",
-    "/posts/2025/06/02/stepping-outside-my-comfort-zone",
-    "/2025/06/02/stepping-outside-my-comfort-zone" 
-]
-+++
+---
+title: "Stepping Outside My Comfort Zone: An Adventure Holiday Experience"
+date: "2025-06-02T20:00:00Z"
+year: "2025"
+month: "2025-06"
+author: "funkysi1701"
+authorTwitter: "funkysi1701"
+cover: "/images/high-adventure.jpg"
+images:
+    - "/images/high-adventure.jpg"
+tags:
+    - "Adventure"
+    - "Family"
+    - "Personal Growth"
+    - "Travel"
+    - "Holiday"
+    - "Outdoors"
+    - "Parenting"
+    - "Experiences"
+category: "Personal"
+description: "A personal story of adventure, family, and growth—stepping outside my comfort zone on an action-packed holiday full of new experiences."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+    - "/stepping-outside-my-comfort-zone"
+    - "/posts/stepping-outside-my-comfort-zone"
+    - "/posts/2025/06/02/stepping-outside-my-comfort-zone"
+    - "/2025/06/02/stepping-outside-my-comfort-zone"
+---
 Stepping outside my comfort zone doesn’t come naturally to me. I’m happiest behind my laptop, but every now and then, I know it’s important to try something new. This year, my family and I decided to do just that—and it turned out to be one of our most memorable weeks ever. Curious about what happens when you swap routine for adventure? Read on!
 
 ## Introduction

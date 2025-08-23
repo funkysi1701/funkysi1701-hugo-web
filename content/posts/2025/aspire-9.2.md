@@ -1,27 +1,36 @@
-+++
-title = "What's New in .NET Aspire 9.2: Infrastructure Diagrams Made Easy"
-date = "2025-04-21T20:00:00Z"
-year = "2025"
-month = "2025-04"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/work.PNG"
-images =['/images/work.PNG']
-tags = ["DotNet", "Aspire", "Infrastructure Diagrams", "Visual Studio", "Docker", "Microservices", "Grafana", "Programming"]
-category="tech"
-description = "Explore the new features in .NET Aspire 9.2, including the ability to create infrastructure diagrams effortlessly with simple code examples."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/what-is-new-in-aspire-9.2",
-    "/posts/what-is-new-in-aspire-9.2",
-    "/posts/2025/04/21/what-is-new-in-aspire-9.2",
-    "/2025/04/21/what-is-new-in-aspire-9.2" 
-]
-+++
+---
+title: "What's New in .NET Aspire 9.2: Infrastructure Diagrams Made Easy"
+date: "2025-04-21T20:00:00Z"
+year: "2025"
+month: "2025-04"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/work.PNG"
+images:
+    - "/images/work.PNG"
+tags:
+    - "DotNet"
+    - "Aspire"
+    - "Infrastructure Diagrams"
+    - "Visual Studio"
+    - "Docker"
+    - "Microservices"
+    - "Grafana"
+    - "Programming"
+categories:
+    - tech
+description: "Explore the new features in .NET Aspire 9.2, including the ability to create infrastructure diagrams effortlessly with simple code examples."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+    - "/what-is-new-in-aspire-9.2"
+    - "/posts/what-is-new-in-aspire-9.2"
+    - "/posts/2025/04/21/what-is-new-in-aspire-9.2"
+    - "/2025/04/21/what-is-new-in-aspire-9.2"
+---
 .NET Aspire 9.2 is here, bringing exciting new features to simplify infrastructure visualization. Whether you're managing microservices or exploring Docker-based architectures, this release makes it easier than ever to create detailed infrastructure diagrams with minimal effort. Let’s dive into the highlights and see how you can use these tools to streamline your workflow.
 
 For details of what .NET Aspire is, check out my [post](/posts/2024/aspire) from last year. For the official announcement see [What's new in .NET Aspire 9.2](https://learn.microsoft.com/en-us/dotnet/aspire/whats-new/dotnet-aspire-9.2)

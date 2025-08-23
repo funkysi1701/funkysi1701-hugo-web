@@ -1,27 +1,34 @@
-+++
-title = "Adding Elasticsearch with .Net Aspire"
-date = "2025-01-20T20:00:00Z"
-year = "2025"
-month= "2025-01"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/elastic-search.jpg"
-images =['/images/elastic-search.jpg']
-tags = ["Elasticsearch", "DotNet", "Aspire", "Search", "Indexing", "Development", "Tech"]
-category="tech"
-description = "Learn how to integrate Elasticsearch with .NET Aspire to enhance your application's search capabilities using powerful indexing and search features."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = true
-draft = false
-aliases = [
-    "/adding-elasticsearch-with-aspire",
-    "/posts/adding-elasticsearch-with-aspire",
-    "/posts/2025/01/20/adding-elasticsearch-with-aspire",
-    "/2025/01/20/adding-elasticsearch-with-aspire" 
-]
-+++
+---
+title: "Adding Elasticsearch with .Net Aspire"
+date: "2025-01-20T20:00:00Z"
+year: "2025"
+month: "2025-01"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/elastic-search.jpg"
+images:
+  - "/images/elastic-search.jpg"
+tags:
+  - "Elasticsearch"
+  - "DotNet"
+  - "Aspire"
+  - "Search"
+  - "Indexing"
+  - "Development"
+  - "Tech"
+category: "tech"
+description: "Learn how to integrate Elasticsearch with .NET Aspire to enhance your application's search capabilities using powerful indexing and search features."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: true
+draft: false
+aliases:
+  - "/adding-elasticsearch-with-aspire"
+  - "/posts/adding-elasticsearch-with-aspire"
+  - "/posts/2025/01/20/adding-elasticsearch-with-aspire"
+  - "/2025/01/20/adding-elasticsearch-with-aspire"
+---
 A few weeks ago I talked about [.Net Aspire](/posts/2024/aspire/), well lets take a look at how we can use it with Elasticsearch. Elastic search is a powerful search engine that can be used to index and search data. It is built on top of Lucene and provides a powerful way to search through your data.
 
 Aspire allows dependencies like elasticsearch to be added to a project programmatically. Lets look at how this can work.

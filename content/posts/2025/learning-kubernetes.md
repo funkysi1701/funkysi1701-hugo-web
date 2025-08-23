@@ -1,27 +1,33 @@
-+++
-title = "Learning Kubernetes: A Beginner's Journey"
-date = "2025-05-12T20:00:00Z"
-year = "2025"
-month = "2025-05"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/kubernetes.png"
-images =['/images/kubernetes.png']
-tags = ["Kubernetes", "Docker", "Grafana", "Container Orchestration", "DevOps", "Microservices"]
-category="tech"
-description = "A beginner's journey into Kubernetes: Learn how to deploy containers, use kubectl, and run a Grafana pod with simple YAML configurations."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = true
-draft = false
-aliases = [
-    "/learning-kubernetes",
-    "/posts/learning-kubernetes",
-    "/posts/2025/05/12/learning-kubernetes",
-    "/2025/05/12/learning-kubernetes" 
-]
-+++
+---
+title: "Learning Kubernetes: A Beginner's Journey"
+date: "2025-05-12T20:00:00Z"
+year: "2025"
+month: "2025-05"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/kubernetes.png"
+images:
+  - "/images/kubernetes.png"
+tags:
+  - "Kubernetes"
+  - "Docker"
+  - "Grafana"
+  - "Container Orchestration"
+  - "DevOps"
+  - "Microservices"
+category: "tech"
+description: "A beginner's journey into Kubernetes: Learn how to deploy containers, use kubectl, and run a Grafana pod with simple YAML configurations."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: true
+draft: false
+aliases:
+  - "/learning-kubernetes"
+  - "/posts/learning-kubernetes"
+  - "/posts/2025/05/12/learning-kubernetes"
+  - "/2025/05/12/learning-kubernetes"
+---
 I know nothing (or very little) about Kubernetes. It is high time I do something to learn more about it. Kubernetes is a powerful tool for managing containerized applications, and it's becoming a must-have skill for developers and DevOps engineers. In this blog, I'll share my journey as a beginner exploring Kubernetes, from running a simple Grafana pod to understanding the basics of `kubectl`. Let's dive in!
 
 ## What is Kubernetes?

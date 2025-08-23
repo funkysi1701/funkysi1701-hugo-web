@@ -1,27 +1,36 @@
-+++
-title = "Automating SSL for Kubernetes with Let's Encrypt and Cert Manager"
-date = "2025-07-07T20:00:00Z"
-year = "2025"
-month = "2025-07"
-author = "funkysi1701"
-authorTwitter = "funkysi1701"
-cover = "/images/cert-manager.png"
-images = ["/images/cert-manager.png"]
-tags = ["Kubernetes", "LetsEncrypt", "SSL", "Cert Manager", "Helm", "Cloudflare", "DevOps", "Security", "Automation"]
-category = "tech"
-description = "How to automate SSL certificates for Kubernetes services using Let's Encrypt, Cert Manager, Helm, and Cloudflare for secure, hassle-free deployments."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/kubernetes-and-letsencrypt",
-    "/posts/kubernetes-and-letsencrypt",
-    "/posts/2025/07/07/kubernetes-and-letsencrypt",
-    "/2025/07/07/kubernetes-and-letsencrypt"
-]
-+++
+---
+title: "Automating SSL for Kubernetes with Let's Encrypt and Cert Manager"
+date: "2025-07-07T20:00:00Z"
+year: "2025"
+month: "2025-07"
+author: "funkysi1701"
+authorTwitter: "funkysi1701"
+cover: "/images/cert-manager.png"
+images:
+  - "/images/cert-manager.png"
+tags:
+  - "Kubernetes"
+  - "LetsEncrypt"
+  - "SSL"
+  - "Cert Manager"
+  - "Helm"
+  - "Cloudflare"
+  - "DevOps"
+  - "Security"
+  - "Automation"
+category: "tech"
+description: "How to automate SSL certificates for Kubernetes services using Let's Encrypt, Cert Manager, Helm, and Cloudflare for secure, hassle-free deployments."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+  - "/kubernetes-and-letsencrypt"
+  - "/posts/kubernetes-and-letsencrypt"
+  - "/posts/2025/07/07/kubernetes-and-letsencrypt"
+  - "/2025/07/07/kubernetes-and-letsencrypt"
+---
 
 I have blogged before about how cool [Let's Encrypt](/posts/2018/lets-encrypt-is-awesome/) is for getting your web things running under https. However I have just got myself a local kubernetes cluster and it is super easy to spin up new web services with SSL certs.
 
