@@ -6,7 +6,8 @@ month: "2025-05"
 author: "funkysi1701"
 authorTwitter: "funkysi1701"
 cover: "/images/helm-hugo.png"
-images: ["/images/helm-hugo.png"]
+images: 
+  - "/images/helm-hugo.png"
 tags:
   - Kubernetes
   - Helm
