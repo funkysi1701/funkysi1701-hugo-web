@@ -1,27 +1,34 @@
-+++
-title = "Getting Started with OpenTelemetry: Observability Made Easy"
-date = "2025-05-05T20:00:00Z"
-year = "2025"
-month = "2025-05"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/open-telemetry.png"
-images =['/images/open-telemetry.png']
-tags = ["OpenTelemetry", "Observability", "Tracing", "Metrics", "Logging", "DotNet"]
-category="tech"
-description = "Learn how OpenTelemetry simplifies observability by collecting traces, metrics, and logs for modern distributed applications."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/getting-started-with-opentelemetry",
-    "/posts/getting-started-with-opentelemetry",
-    "/posts/2025/05/05/getting-started-with-opentelemetry",
-    "/2025/05/05/getting-started-with-opentelemetry"
-]
-+++
+---
+title: "Getting Started with OpenTelemetry: Observability Made Easy"
+date: "2025-05-05T20:00:00Z"
+year: "2025"
+month: "2025-05"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/open-telemetry.png"
+images:
+    - "/images/open-telemetry.png"
+tags:
+    - "OpenTelemetry"
+    - "Observability"
+    - "Tracing"
+    - "Metrics"
+    - "Logging"
+    - "DotNet"
+categories:
+    - tech
+description: "Learn how OpenTelemetry simplifies observability by collecting traces, metrics, and logs for modern distributed applications."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+    - "/getting-started-with-opentelemetry"
+    - "/posts/getting-started-with-opentelemetry"
+    - "/posts/2025/05/05/getting-started-with-opentelemetry"
+    - "/2025/05/05/getting-started-with-opentelemetry"
+---
 ## What is OpenTelemetry?
 
 OpenTelemetry is an open-source observability framework that provides a unified way to collect, process, and export telemetry data such as **traces**, **metrics**, and **logs**. It is designed to help developers monitor and debug distributed systems by providing insights into application performance and behavior.

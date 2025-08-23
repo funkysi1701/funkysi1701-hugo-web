@@ -1,27 +1,37 @@
-+++
-title = "Integrating OpenTelemetry Logs with Grafana Using Loki and Alloy"
-date = "2025-04-14T20:00:00Z"
-year = "2025"
-month = "2025-04"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/grafana-loki-arch.png"
-images =["/images/grafana-loki-arch.png"]
-tags = ["OpenTelemetry", "Grafana", "Loki", "Alloy", "Logging", "Monitoring", "Docker", "DotNet", "Tech"]
-category="tech"
-description = "Learn how to integrate OpenTelemetry logs with Grafana using Loki and Alloy for efficient log aggregation and monitoring in your .NET applications."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/adding-opentelemetry-logs-to-grafana",
-    "/posts/adding-opentelemetry-logs-to-grafana",
-    "/posts/2025/04/14/adding-opentelemetry-logs-to-grafana",
-    "/2025/04/14/adding-opentelemetry-logs-to-grafana" 
-]
-+++
+---
+title: "Integrating OpenTelemetry Logs with Grafana Using Loki and Alloy"
+date: "2025-04-14T20:00:00Z"
+year: "2025"
+month: "2025-04"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/grafana-loki-arch.png"
+images:
+  - "/images/grafana-loki-arch.png"
+tags:
+  - "OpenTelemetry"
+  - "Grafana"
+  - "Loki"
+  - "Alloy"
+  - "Logging"
+  - "Monitoring"
+  - "Docker"
+  - "DotNet"
+  - "Tech"
+categories:
+    - tech
+description: "Learn how to integrate OpenTelemetry logs with Grafana using Loki and Alloy for efficient log aggregation and monitoring in your .NET applications."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+  - "/adding-opentelemetry-logs-to-grafana"
+  - "/posts/adding-opentelemetry-logs-to-grafana"
+  - "/posts/2025/04/14/adding-opentelemetry-logs-to-grafana"
+  - "/2025/04/14/adding-opentelemetry-logs-to-grafana"
+---
 Logs are a critical part of monitoring and debugging modern applications. By integrating OpenTelemetry logs with Grafana using Loki and Alloy, you can centralize your log data, making it easier to analyze and monitor your .NET applications. In this blog, I'll walk you through the setup process and share how these tools work together to streamline log aggregation and visualization.
 
 I have blogged about [Grafana](/posts/2025/setting-up-grafana/) before but until now I haven't added logs to Grafana let's have a look at how that works.

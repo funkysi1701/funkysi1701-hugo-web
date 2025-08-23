@@ -1,27 +1,35 @@
-+++
-title = "Volunteering at NDC London"
-date = "2025-02-03T20:00:00Z"
-year = "2025"
-month= "2025-02"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/ndc-simon.jpg"
-images =['/images/ndc-simon.jpg']
-tags = ["NDC London", "Volunteering", "Conference", "DotNet", "Tech Events", "Networking", "Software Development"]
-category="tech"
-description = "Read about my experience volunteering at NDC London, meeting great people, and learning a lot at this premier software development conference."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/volunteering-at-ndc-london",
-    "/posts/volunteering-at-ndc-london",
-    "/posts/2025/02/03/volunteering-at-ndc-london",
-    "/2025/02/03/volunteering-at-ndc-london" 
-]
-+++
+---
+title: "Volunteering at NDC London"
+date: "2025-02-03T20:00:00Z"
+year: "2025"
+month: "2025-02"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/ndc-simon.jpg"
+images:
+    - "/images/ndc-simon.jpg"
+tags:
+    - "NDC London"
+    - "Volunteering"
+    - "Conference"
+    - "DotNet"
+    - "Tech Events"
+    - "Networking"
+    - "Software Development"
+categories:
+    - tech
+description: "Read about my experience volunteering at NDC London, meeting great people, and learning a lot at this premier software development conference."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+    - "/volunteering-at-ndc-london"
+    - "/posts/volunteering-at-ndc-london"
+    - "/posts/2025/02/03/volunteering-at-ndc-london"
+    - "/2025/02/03/volunteering-at-ndc-london"
+---
 ![The NDC Volunteers](/images/ndc-crew.jpg)
 
 I have just come home from volunteering at NDC London. It was a great experience and I learned a lot. I met some great people and had a lot of fun. I can't wait to go back next year.

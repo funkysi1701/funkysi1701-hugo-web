@@ -1,27 +1,34 @@
-+++
-title = "What is new with C#"
-date = "2025-02-10T20:00:00Z"
-year = "2025"
-month= "2025-02"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/mads-csharp.jpg"
-images =['/images/mads-csharp.jpg']
-tags = ["C-Sharp", "Programming", "DotNet", "Language Features", "Development", "Tech"]
-category="tech"
-description = "Discover the latest features coming to C#, including dictionary expressions and more, as shared by Mads Torgersen at NDC London."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/whats-new-csharp",
-    "/posts/whats-new-csharp",
-    "/posts/2025/02/10/whats-new-csharp",
-    "/2025/02/10/whats-new-csharp" 
-]
-+++
+---
+title: "What is new with C#"
+date: "2025-02-10T20:00:00Z"
+year: "2025"
+month: "2025-02"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/mads-csharp.jpg"
+images:
+  - "/images/mads-csharp.jpg"
+tags:
+  - "C-Sharp"
+  - "Programming"
+  - "DotNet"
+  - "Language Features"
+  - "Development"
+  - "Tech"
+categories:
+    - tech
+description: "Discover the latest features coming to C#, including dictionary expressions and more, as shared by Mads Torgersen at NDC London."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+  - "/whats-new-csharp"
+  - "/posts/whats-new-csharp"
+  - "/posts/2025/02/10/whats-new-csharp"
+  - "/2025/02/10/whats-new-csharp"
+---
 I was lucky enough to hear Mads Torgersen (The Lead Designer of the C# language) speak at [NDC London](/posts/2025/volunteering-at-ndc/) about some of the plans the team has for the next version of C#. Many of these new features are in the preview stage, and can be enabled by using the c# preview flag in your csproj file. The C# team welcomes feedback on the different use cases for new feature, especially during these early previews. As this is a preview of new language features, don't blame me if this all changes before it all ships in Novembers release!
 
 ```xml
