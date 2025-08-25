@@ -1,27 +1,34 @@
-+++
-title = "Setting Up Nagios Monitoring with Docker"
-date = "2025-01-06T20:00:00Z"
-year = "2025"
-month= "2025-01"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/nagios.png"
-images =['/images/nagios.png']
-tags = ["Nagios", "Docker", "Monitoring", "SysAdmin", "DevOps", "Network Monitoring"]
-category="tech"
-description = "Learn how to set up Nagios monitoring using Docker to monitor your local network. Follow this guide to get started with network monitoring in a container."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/nagios-monitoring-with-docker",
-    "/posts/nagios-monitoring-with-docker",
-    "/posts/2025/01/06/nagios-monitoring-with-docker",
-    "/2025/01/06/nagios-monitoring-with-docker"    
-]
-+++
+---
+title: "Setting Up Nagios Monitoring with Docker"
+date: "2025-01-06T20:00:00Z"
+year: "2025"
+month: "2025-01"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/nagios.png"
+images:
+  - "/images/nagios.png"
+tags:
+  - "Nagios"
+  - "Docker"
+  - "Monitoring"
+  - "SysAdmin"
+  - "DevOps"
+  - "Network Monitoring"
+categories:
+    - tech
+description: "Learn how to set up Nagios monitoring using Docker to monitor your local network. Follow this guide to get started with network monitoring in a container."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+  - "/nagios-monitoring-with-docker"
+  - "/posts/nagios-monitoring-with-docker"
+  - "/posts/2025/01/06/nagios-monitoring-with-docker"
+  - "/2025/01/06/nagios-monitoring-with-docker"
+---
 
 A long time ago in my SysAdmin days, I was a big fan of [Nagios](/posts/2014/i-love-nagios/). Recently, I decided to revisit it and see if I could run it in a Docker container to monitor my local network. This guide will walk you through the process of setting up Nagios monitoring using Docker.
 

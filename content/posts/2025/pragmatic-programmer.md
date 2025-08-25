@@ -1,27 +1,34 @@
-+++
-title = "The Pragmatic Programmer"
-date = "2025-02-24T20:00:00Z"
-year = "2025"
-month= "2025-02"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/tpp.jpg"
-images =['/images/tpp.jpg']
-tags = ["Pragmatic Programmer", "Book Review", "Programming", "Software Development", "Best Practices", "Tech"]
-category="tech"
-description = "'The Pragmatic Programmer' with key takeaways and tips for improving your programming skills and practices."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/pragmatic-programmer",
-    "/posts/pragmatic-programmer",
-    "/posts/2025/02/24/pragmatic-programmer",
-    "/2025/02/24/pragmatic-programmer" 
-]
-+++
+---
+title: "The Pragmatic Programmer"
+date: "2025-02-24T20:00:00Z"
+year: "2025"
+month: "2025-02"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/tpp.jpg"
+images:
+    - "/images/tpp.jpg"
+tags:
+    - "Pragmatic Programmer"
+    - "Book Review"
+    - "Programming"
+    - "Software Development"
+    - "Best Practices"
+    - "Tech"
+categories:
+    - tech
+description: "'The Pragmatic Programmer' with key takeaways and tips for improving your programming skills and practices."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+    - "/pragmatic-programmer"
+    - "/posts/pragmatic-programmer"
+    - "/posts/2025/02/24/pragmatic-programmer"
+    - "/2025/02/24/pragmatic-programmer"
+---
 I have been reading [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) and I have to say it is a fantastic book. It is full of great advice and tips for programmers. I highly recommend it to anyone who is a programmer at any level.
 
 Lots of the advice is common sense and things I already do, but there are also lots of things I know in the back of my mind that I should be doing. So reading it has been a great reminder of those things.

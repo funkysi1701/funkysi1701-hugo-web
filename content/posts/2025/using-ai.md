@@ -1,27 +1,37 @@
-+++
-title = "Using AI to Automate Social Media Posts with .NET"
-date = "2025-03-17T20:00:00Z"
-year = "2025"
-month= "2025-03"
-author = "funkysi1701"
-authorTwitter = "funkysi1701" #do not include @
-cover = "/images/social-ai.png"
-images =['/images/social-ai.png']
-tags = ["AI", "OpenAI", "Semantic Kernel", "DotNet", "RSS", "Social Media", "Automation", "Programming", "Tech"]
-category="tech"
-description = "Learn how to use AI with .NET to automate social media posts from your blog's RSS feed using Semantic Kernel and OpenAI."
-showFullContent = false
-readingTime = true
-copyright = false
-featured = false
-draft = false
-aliases = [
-    "/using-ai",
-    "/posts/using-ai",
-    "/posts/2025/03/17/using-ai",
-    "/2025/03/17/using-ai" 
-]
-+++
+---
+title: "Using AI to Automate Social Media Posts with .NET"
+date: "2025-03-17T20:00:00Z"
+year: "2025"
+month: "2025-03"
+author: "funkysi1701"
+authorTwitter: "funkysi1701" #do not include @
+cover: "/images/social-ai.png"
+images:
+    - "/images/social-ai.png"
+tags:
+    - "AI"
+    - "OpenAI"
+    - "Semantic Kernel"
+    - "DotNet"
+    - "RSS"
+    - "Social Media"
+    - "Automation"
+    - "Programming"
+    - "Tech"
+categories:
+    - tech
+description: "Learn how to use AI with .NET to automate social media posts from your blog's RSS feed using Semantic Kernel and OpenAI."
+showFullContent: false
+readingTime: true
+copyright: false
+featured: false
+draft: false
+aliases:
+    - "/using-ai"
+    - "/posts/using-ai"
+    - "/posts/2025/03/17/using-ai"
+    - "/2025/03/17/using-ai"
+---
 
 Automating repetitive tasks is one of the best ways to save time and focus on what matters most. In this blog, I'll show you how I used AI with .NET to automate the creation of social media posts for my blog. By leveraging my blog's RSS feed, OpenAI, and Semantic Kernel, I was able to generate engaging posts effortlessly. Let's dive in!
 
