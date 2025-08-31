@@ -1,7 +1,7 @@
 ###############
 # Build Stage #
 ###############
-FROM hugomods/hugo:exts as builder
+FROM hugomods/hugo:exts AS builder
 
 COPY . /src
 
