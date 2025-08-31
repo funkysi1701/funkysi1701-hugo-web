@@ -19,11 +19,13 @@ ENV HUGO_MODULE_PROXY=${HUGO_MODULE_PROXY}
 ARG NPM_CONFIG_REGISTRY=
 ENV NPM_CONFIG_REGISTRY=${NPM_CONFIG_REGISTRY}
 
+ARG BUILD_FUTURE_FLAG=""
+
 # Install dependencies
 RUN npm i
 
 # Build site
-RUN hugo --minify --gc --enableGitInfo
+RUN hugo --minify --gc --enableGitInfo ${BUILD_FUTURE_FLAG}
 
 # Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
 # RUN cp ./public/en/404.html ./public/404.html
