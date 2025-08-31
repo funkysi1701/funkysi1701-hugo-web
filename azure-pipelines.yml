@@ -28,17 +28,12 @@ steps:
     case "$(Build.SourceBranchName)" in
       "main")
         docker build -t blog-v2 .
-        echo "##vso[task.setvariable variable=imageRepoName]blog-v2:$(Build.BuildNumber)-main"
         ;;
-      "test")
+      "test" | "develop")
         docker build --build-arg BUILD_FUTURE_FLAG="--buildFuture" -t blog-v2 .
-        echo "##vso[task.setvariable variable=imageRepoName]blog-v2:$(Build.BuildNumber)-test"
-        ;;
-      "develop")
-        docker build --build-arg BUILD_FUTURE_FLAG="--buildFuture" -t blog-v2 .
-        echo "##vso[task.setvariable variable=imageRepoName]blog-v2:$(Build.BuildNumber)-develop"
         ;;
     esac
+    echo "##vso[task.setvariable variable=imageRepoName]blog-v2:$(Build.BuildNumber)-$(Build.SourceBranchName)"
   displayName: 'Set image repository name'
 - task: CmdLine@2
   displayName: "Publish to ACR"
