@@ -25,14 +25,13 @@ steps:
     script: |
       docker login funkysi1701.azurecr.io --username funkysi1701 --password $(acrPassword)
 - bash: |
+    BUILD_ARGS=""
     case "$(Build.SourceBranchName)" in
-      "main")
-        docker build -t blog-v2 .
-        ;;
       "test" | "develop")
-        docker build --build-arg BUILD_FUTURE_FLAG="--buildFuture" -t blog-v2 .
+        BUILD_ARGS="--build-arg BUILD_FUTURE_FLAG="--buildFuture""
         ;;
     esac
+    docker build ${BUILD_ARGS} -t blog-v2 .
     echo "##vso[task.setvariable variable=imageRepoName]blog-v2:$(Build.BuildNumber)-$(Build.SourceBranchName)"
   displayName: 'Set image repository name'
 - task: CmdLine@2
