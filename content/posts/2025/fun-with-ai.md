@@ -50,24 +50,9 @@ There should be a label on the corner of the box that says "Limited Edition".
 This figure should look like a premium toy and everything should be inside the plastic!
 ```
 
-<table border="0" cellpadding="0" cellspacing="0" >
-  <tr style="border-width:0px 0px 0px 0px">
-    <td style="border-width:0px 0px 0px 0px">
-      and I supplied the following image:
-    </td>
-    <td style="border-width:0px 0px 0px 0px">
-      and this is the result:
-    </td>
-  </tr>
-  <tr style="border-width:0px 0px 0px 0px">
-    <td style="border-width:0px 0px 0px 0px">
-      <img src="/images/ndc-simon.jpg" alt="A picture of me as the source image" width="300" height="400" class="img-fluid" />
-    </td>
-    <td style="border-width:0px 0px 0px 0px">
-      <img src="/images/ai-version-of-me.png" alt="AI generated version of me" width="300" height="400" class="img-fluid" />
-    </td>
-  </tr>
-</table>
+| and I supplied the following image: | and this is the result: |
+| --- | --- |
+| ![A picture of me as the source image](/images/ndc-simon.jpg?width=300px) | ![AI generated version of me](/images/ai-version-of-me.png?width=300px) |
 
 Pretty cool, right? Well I can't take the credit for the prompt, It comes from [Amy Ru](https://www.linkedin.com/posts/amyru_out-of-all-the-chatgpt-image-generation-capabilities-activity-7312549043610521601-BPqJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOBLj4B-Ls737kwBrHA1oRvkACb_CoRCQw2X0v1gk7q4r3w8Q9x5a6b0h4j2c1nqZz7g&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_primary%3B5JdYtG6mQeKx%2FfWl8V9jNQ%3D%3D) on LinkedIn.
 
