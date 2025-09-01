@@ -8,7 +8,7 @@ description = "Learn more about Simon Foster, also known as Funky Si. Discover h
 images = ['https://storageaccountblog9f5d.blob.core.windows.net/blazor/wp-content/uploads/2014/09/1922276.jpg']
 showFullContent = false
 copyright = false
-readingTime = true
+readingTime = false
 comment = false
 aliases = [
     "/about",
@@ -16,18 +16,21 @@ aliases = [
 ]
 +++
 
+![Funky Si profile image](https://storageaccountblog9f5d.blob.core.windows.net/blazor/wp-content/uploads/2014/09/1922276.jpg?height=150px#float-start)
 
-<img alt="Funky Si profile image" src="https://storageaccountblog9f5d.blob.core.windows.net/blazor/wp-content/uploads/2014/09/1922276.jpg" style="float: left; padding-right: 15px; height: 150px" />
-    
 My real name is Simon Foster but my on-line persona is Funky Si a nickname I was given during my university days which has somehow stuck. I am a Developer working in the North of England. I have been working in IT departments since 2006 and have a wide range of experiences. More recently in the Software Development space but also SysAdmin, Server Infrastructure, Databases and DevOps.
 
 In my spare time I have created <a href="/pwned-pass">Pwned Pass</a> a Xamarin Forms mobile app that makes use of the Have I Been Pwned? API to allow searching for breached emails and passwords. This is available from the Google Play store.
 
 ## Certifications
 
-<a href="https://www.credly.com/badges/adacf718-d696-4254-a68d-5b32f720ac78/public_url" style="float:left"><img src="/images/azure.png" alt="Azure Fundamentals" width="150" /></a>
+![Azure Fundamentals](/images/azure.png?width=150px)
 
-<a href="https://www.credly.com/badges/3aab54c8-a109-4018-bcad-dbe0d6a1fc0c/public_url"><img src="/images/awscp.png" alt="AWS Cloud Practitioner" width="150" /></a>
+[Azure Fundamentals](https://www.credly.com/badges/adacf718-d696-4254-a68d-5b32f720ac78/public_url)
+
+![AWS Cloud Practitioner](/images/awscp.png?width=150px)
+
+[AWS Cloud Practitioner](https://www.credly.com/badges/3aab54c8-a109-4018-bcad-dbe0d6a1fc0c/public_url)
 
 ## Tech I have used
 
