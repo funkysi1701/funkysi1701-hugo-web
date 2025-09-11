@@ -33,5 +33,5 @@ RUN hugo --minify --gc --enableGitInfo ${BUILD_FUTURE_FLAG}
 ###############
 # Final Stage #
 ###############
-FROM hugomods/hugo:nginx
+FROM hugomods/hugo:nginx-1.29.1
 COPY --from=builder /src/public /site
