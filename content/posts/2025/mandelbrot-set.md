@@ -73,7 +73,7 @@ Many websites and software tools let you explore the Mandelbrot set interactivel
 
 ## Final Thoughts
 
-I have been fascinated by fractals since I was young. I remember seeing them generated on a [Lynx computer](/posts/2021/back-to-basic/) and the process was slow, one pixel at a time, after a few hours you would see a complete mandelbrot set. More recently I have looked at generating them in the browser (using .NET's Blazor WebAssembly technology), and the image at the start of this post took only a few seconds to generate.
+I have been fascinated by fractals since I was young. I remember seeing them generated on a [Lynx computer](/posts/2021/back-to-basic/) and the process was slow, one pixel at a time, after a few hours you would see a complete Mandelbrot set. More recently I have looked at generating them in the browser (using .NET's Blazor WebAssembly technology), and the image at the start of this post took only a few seconds to generate.
 
 I've also created an [interactive Mandelbrot set generator](https://mandelbrot.funkysi1701.com/). It's a work in progress, but you can already generate a set and zoom in using the buttons at the top or by clicking with your mouse. I plan to add more features in the coming weeks.
 
