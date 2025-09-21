@@ -15,4 +15,7 @@
 [[main]]
   identifier = "about"
   name = "About"
-  weight = 2
+  weight = 3
+  url = "/about/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-info-circle"></i>'
