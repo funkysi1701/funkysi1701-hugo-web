@@ -25,7 +25,7 @@
   weight = 5
   url = "https://eepurl.com/i7pQno"
   [main.params]
-    icon = '<i class="fas fa-fw fa-info-circle"></i>'    
+    icon = '<i class="fas fa-fw fa-envelope"></i>'
 [[main]]
   identifier = "podcasts"
   name = "Podcasts"
