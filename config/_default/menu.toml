@@ -39,4 +39,4 @@
   weight = 7
   url = "/referral-links/"
   [main.params]
-    icon = '<i class="fas fa-fw fa-info-circle"></i>'        
+    icon = '<i class="fas fa-fw fa-link"></i>'
