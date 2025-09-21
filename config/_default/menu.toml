@@ -32,7 +32,7 @@
   weight = 6
   url = "/podcasts/"
   [main.params]
-    icon = '<i class="fas fa-fw fa-info-circle"></i>'    
+    icon = '<i class="fas fa-fw fa-podcast"></i>'
 [[main]]
   identifier = "referral-links"
   name = "Referral Links"
