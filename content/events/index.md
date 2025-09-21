@@ -10,6 +10,7 @@ showFullContent = false
 copyright = false
 readingTime = true
 featured = true
+pinned = true
 aliases = [
     "/events",
     "/posts/events"
