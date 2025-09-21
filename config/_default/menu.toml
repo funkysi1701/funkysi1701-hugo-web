@@ -17,6 +17,8 @@
   name = "Events"
   weight = 4
   url = "/events/"
+  [main.params]
+    icon = '<i class="fas fa fa-calendar"></i>'  
 [[main]]
   identifier = "newsletter"
   name = "Newsletter"
@@ -29,6 +31,8 @@
   name = "Podcasts"
   weight = 6
   url = "/podcasts/"
+  [main.params]
+    icon = '<i class="fas fa fa-podcast"></i>'    
 [[main]]
   identifier = "referral-links"
   name = "Referral Links"
