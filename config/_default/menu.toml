@@ -1,11 +1,4 @@
 [[main]]
-  identifier = "home"
-  name = "Home"
-  weight = 1
-  url = "/"
-  [main.params]
-    icon = '<i class="fas fa-home"></i>'
-[[main]]
   identifier = "blog"
   name = "Blog"
   weight = 2
@@ -19,3 +12,31 @@
   url = "/about/"
   [main.params]
     icon = '<i class="fas fa-fw fa-info-circle"></i>'
+[[main]]
+  identifier = "events"
+  name = "Events"
+  weight = 3
+  url = "/events/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-info-circle"></i>'
+[[main]]
+  identifier = "newsletter"
+  name = "Newsletter"
+  weight = 3
+  url = "https://eepurl.com/i7pQno"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-info-circle"></i>'    
+[[main]]
+  identifier = "podcasts"
+  name = "Podcasts"
+  weight = 3
+  url = "/podcasts/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-info-circle"></i>'    
+[[main]]
+  identifier = "referral-links"
+  name = "Referral Links"
+  weight = 3
+  url = "/referral-links/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-info-circle"></i>'        
