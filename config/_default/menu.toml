@@ -12,4 +12,10 @@
   url = "/blog/"
   [main.params]
     icon = '<i class="fas fa-fw fa-blog"></i>'
-
+[[main]]
+  identifier = "about"
+  name = "About"
+  weight = 3
+  url = "/about/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-info-circle"></i>'
