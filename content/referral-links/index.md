@@ -24,7 +24,7 @@ I have been with Octopus Energy for a few years now and have been very happy wit
 
 I have also blogged about my experience with Octopus Energy [here](/posts/2021/charting-my-energy-usage-with-the-octopus-energy-api/).
 
-[https://share.octopus.energy/amber-eel-810](https://share.octopus.energy/amber-eel-810)
+[Sign up to Octopus Energy with my referral link](https://share.octopus.energy/amber-eel-810)
 
 ## Monzo Bank
 
