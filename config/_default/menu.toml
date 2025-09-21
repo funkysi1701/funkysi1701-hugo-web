@@ -15,28 +15,28 @@
 [[main]]
   identifier = "events"
   name = "Events"
-  weight = 3
+  weight = 4
   url = "/events/"
   [main.params]
     icon = '<i class="fas fa-fw fa-info-circle"></i>'
 [[main]]
   identifier = "newsletter"
   name = "Newsletter"
-  weight = 3
+  weight = 5
   url = "https://eepurl.com/i7pQno"
   [main.params]
     icon = '<i class="fas fa-fw fa-info-circle"></i>'    
 [[main]]
   identifier = "podcasts"
   name = "Podcasts"
-  weight = 3
+  weight = 6
   url = "/podcasts/"
   [main.params]
     icon = '<i class="fas fa-fw fa-info-circle"></i>'    
 [[main]]
   identifier = "referral-links"
   name = "Referral Links"
-  weight = 3
+  weight = 7
   url = "/referral-links/"
   [main.params]
     icon = '<i class="fas fa-fw fa-info-circle"></i>'        
