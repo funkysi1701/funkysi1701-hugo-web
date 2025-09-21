@@ -1,0 +1,15 @@
+[[main]]
+  identifier = "home"
+  name = "Home"
+  weight = 1
+  url = "/"
+  [main.params]
+    icon = '<i class="fas fa-home"></i>'
+[[main]]
+  identifier = "blog"
+  name = "Blog"
+  weight = 2
+  url = "/blog/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-blog"></i>'
+
