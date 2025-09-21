@@ -16,7 +16,7 @@ aliases = [
 ]
 +++
 
-A list of podcast I have recorded. 
+A list of podcasts I have recorded. 
 
 [TrekRanks #174](/posts/2024/trekranks/)
 
