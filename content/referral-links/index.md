@@ -3,7 +3,7 @@ title = "Referral Links"
 author = "funkysi1701"
 authorTwitter = "funkysi1701" #do not include @
 cover = ""
-keywords = ["", ""]
+keywords = ["referral links", "discounts", "Octopus Energy", "Monzo Bank", "Connect Fibre", "Mindful Chef"]
 description = "Discover referral links to products and services I use and recommend, including Octopus Energy. Sign up through these links for special benefits."
 comment = false
 showFullContent = false
@@ -24,7 +24,7 @@ I have been with Octopus Energy for a few years now and have been very happy wit
 
 I have also blogged about my experience with Octopus Energy [here](/posts/2021/charting-my-energy-usage-with-the-octopus-energy-api/).
 
-[https://share.octopus.energy/amber-eel-810](https://share.octopus.energy/amber-eel-810)
+[Sign up to Octopus Energy with my referral link](https://share.octopus.energy/amber-eel-810)
 
 ## Monzo Bank
 
