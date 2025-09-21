@@ -1,6 +1,5 @@
 +++
 title = "Events"
-type = "events"
 author = "funkysi1701"
 authorTwitter = "funkysi1701" #do not include @
 cover = ""
