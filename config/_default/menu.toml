@@ -18,7 +18,7 @@
   weight = 4
   url = "/events/"
   [main.params]
-    icon = '<i class="fas fa-fw fa-info-circle"></i>'
+    icon = '<i class="fas fa-fw fa-calendar-alt"></i>'
 [[main]]
   identifier = "newsletter"
   name = "Newsletter"
