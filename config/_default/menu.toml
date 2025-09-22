@@ -1,0 +1,42 @@
+[[main]]
+  identifier = "blog"
+  name = "Blog"
+  weight = 2
+  url = "/blog/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-blog"></i>'
+[[main]]
+  identifier = "about"
+  name = "About"
+  weight = 3
+  url = "/about/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-info-circle"></i>'
+[[main]]
+  identifier = "events"
+  name = "Events"
+  weight = 4
+  url = "/events/"
+  [main.params]
+    icon = '<i class="fas fa-calendar"></i>'  
+[[main]]
+  identifier = "newsletter"
+  name = "Newsletter"
+  weight = 5
+  url = "https://eepurl.com/i7pQno"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-envelope"></i>'
+[[main]]
+  identifier = "podcasts"
+  name = "Podcasts"
+  weight = 6
+  url = "/podcasts/"
+  [main.params]
+    icon = '<i class="fas fa-podcast"></i>'    
+[[main]]
+  identifier = "referral-links"
+  name = "Referral Links"
+  weight = 7
+  url = "/referral-links/"
+  [main.params]
+    icon = '<i class="fas fa-fw fa-link"></i>'
