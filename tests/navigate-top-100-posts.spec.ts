@@ -1,8 +1,10 @@
 import { test, expect } from '@playwright/test';
 
+const BASE_URL = 'https://www.funkysi1701.com';
+
 test('navigate to www.funkysi1701.com, check top 100 blog posts for broken links and images', async ({ page }) => {
   // Step 1: Navigate to the homepage
-  await page.goto('https://www.funkysi1701.com');
+  await page.goto(BASE_URL);
   await expect(page).toHaveTitle(/Funky Si's Blog/);
 
   // Step 2: Find top 100 blog post URLs (assume links under /posts/)
