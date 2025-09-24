@@ -36,12 +36,12 @@ test('navigate to www.funkysi1701.com, check top 100 blog posts for broken links
 
     // Check for broken links (status not 200 or 301/302 for external)
     const links = await page.$$eval('a[href]', as => as.map(a => a.href));
-    for (const link of links) {
-      // Only check http(s) links, skip mailto, tel, etc.
-      if (/^https?:\/\//.test(link)) {
+    const linkChecks = links
+      .filter(link => /^https?:\/\//.test(link))
+      .map(async (link) => {
         const response = await page.request.get(link);
-        expect(response.status(), `Broken link: ${link} on ${url}`).toBeLessThan(400);
-      }
-    }
+        expect.soft(response.status(), `Broken link: ${link} on ${url}`).toBeLessThan(400);
+      });
+    await Promise.all(linkChecks);
   }
 });
