@@ -32,7 +32,7 @@ test('navigate to www.funkysi1701.com, check top 100 blog posts for broken links
     const brokenImages = await page.$$eval('img', imgs =>
       imgs.filter(img => !(img.complete && img.naturalWidth > 0)).map(img => img.src)
     );
-    expect(brokenImages, `Broken images on ${url}: ${brokenImages.join(', ')}`).toEqual([]);
+    expect.soft(brokenImages, `Broken images on ${url}: ${brokenImages.join(', ')}`).toEqual([]);
 
     // Check for broken links (status not 200 or 301/302 for external)
     const links = await page.$$eval('a[href]', as => as.map(a => a.href));
