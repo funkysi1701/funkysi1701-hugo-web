@@ -27,10 +27,11 @@
   ],
   "regexManagers": [
     {
-      "fileMatch": ["Dockerfile", "docker-compose.yml"], // adjust to your file(s)
+      "fileMatch": ["Dockerfile", "docker-compose.yaml"],
       "matchStrings": [
-        "exts-(?<currentValue>\\d+\\.\\d+\\.\\d+)" // matches exts-0.150.0
+        "exts-(?<currentValue>\\d+\\.\\d+\\.\\d+)"
       ],
+      "depNameTemplate": "hugomods/hugo",
       "datasourceTemplate": "docker"
     }
   ]
