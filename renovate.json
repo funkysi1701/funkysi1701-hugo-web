@@ -1,6 +1,12 @@
 {
   "packageRules": [
     {
+      "matchCategories": [
+        "docker"
+      ],
+      "enabled": true
+    },
+    {
       "matchUpdateTypes": [
         "minor",
         "patch",
@@ -24,8 +30,5 @@
   ],
   "extends": [
     "config:recommended"
-  ],
-  "docker": {
-    "enabled": true
-  }
+  ]
 }
