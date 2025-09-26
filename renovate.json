@@ -29,7 +29,8 @@
     {
       "fileMatch": ["Dockerfile", "docker-compose.yaml"],
       "matchStrings": [
-        "exts-(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+        "exts-(?<currentValue>\\d+\\.\\d+\\.\\d+)",
+        "nginx-(?<currentValue>\\d+\\.\\d+\\.\\d+)"
       ],
       "depNameTemplate": "hugomods/hugo",
       "datasourceTemplate": "docker"
