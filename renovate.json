@@ -25,7 +25,22 @@
   "extends": [
     "config:recommended"
   ],
-  "docker": {
-    "enabled": true
-  }
+  "regexManagers": [
+    {
+      "fileMatch": ["Dockerfile", "docker-compose.yaml"],
+      "matchStrings": [
+        "exts-(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+      ],
+      "depNameTemplate": "hugomods/hugo",
+      "datasourceTemplate": "docker"
+    },
+    {
+      "fileMatch": ["Dockerfile", "docker-compose.yaml"],
+      "matchStrings": [
+        "nginx-(?<currentValue>\\d+\\.\\d+\\.\\d+)"
+      ],
+      "depNameTemplate": "hugomods/hugo",
+      "datasourceTemplate": "docker"
+    }
+  ]
 }
