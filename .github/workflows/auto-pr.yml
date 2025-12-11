@@ -1,4 +1,4 @@
-name: Auto PR
+name: Dev to Test
 on:
   schedule:
     - cron: '40 17 * * *'
