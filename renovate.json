@@ -25,9 +25,13 @@
   "extends": [
     "config:recommended"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
-      "fileMatch": ["Dockerfile", "docker-compose.yaml"],
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/Dockerfile/",
+        "/docker-compose.yaml/"
+      ],
       "matchStrings": [
         "exts-(?<currentValue>\\d+\\.\\d+\\.\\d+)"
       ],
@@ -35,7 +39,11 @@
       "datasourceTemplate": "docker"
     },
     {
-      "fileMatch": ["Dockerfile", "docker-compose.yaml"],
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/Dockerfile/",
+        "/docker-compose.yaml/"
+      ],
       "matchStrings": [
         "nginx-(?<currentValue>\\d+\\.\\d+\\.\\d+)"
       ],
