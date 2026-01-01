@@ -2,7 +2,7 @@ name: my-blog
 
 services:
   server:
-    image: hugomods/hugo:exts-0.153.2
+    image: hugomods/hugo:exts-0.154.0
     command: hugo server -D -p 1313 --bind 0.0.0.0 --disableFastRender --buildFuture
     volumes:
       - ./:/src
